@@ -39,7 +39,7 @@ export const logout = async () => {
 export const getUserDetails = async (): Promise<string> => {
     try {
         const response = await axiosInstance.get(`/User/me`);
-        // console.log(response);
+        console.log(response);
         const data = response.data as { Id: string };
         return data.Id;
     } catch (e) {

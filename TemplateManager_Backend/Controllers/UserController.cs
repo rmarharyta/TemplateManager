@@ -137,7 +137,7 @@ namespace TemplateManager_Backend.Controllers
         }
 
         [HttpGet]
-        [Route("/me")]
+        [Route("2772me")]
         public IActionResult GetUser()
         {
             var user = GetUserFromToken();

@@ -47,7 +47,7 @@ function LoginPage() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "#E6DFFF",
+        backgroundColor: "#08031B",
       }}
     >
       <Box
@@ -56,7 +56,7 @@ function LoginPage() {
           width: "90vw",
           maxWidth: "700px",
           justifyContent: "center",
-          backgroundColor: "#FFFFFFCC",
+          backgroundColor: "#F8F6F0",
           borderRadius: isMobile ? "30px" : "60px",
           padding: isMobile ? "20px" : "40px",
         }}
@@ -95,7 +95,7 @@ function LoginPage() {
           {/* Логін кнопка */}
           <CustomButton
             text={isPending ? "Waiting..." : "Log in"}
-            color="primary"
+            color="#08031B"
             disabled={isButtonDisabled}
             onClick={() => {
               setIsSubmitted(true);
@@ -106,7 +106,7 @@ function LoginPage() {
           {/* Сігнап кнопка */}
           <CustomButton
             text="Sign Up"
-            color="secondary"
+            color="#4b0082"
             onClick={() => navigate("/signup")}
           />
 

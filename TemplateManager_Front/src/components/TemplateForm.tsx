@@ -86,10 +86,19 @@ const TemplateForm: React.FC<Props> = ({
               variant="contained"
               onClick={handleSave}
               disabled={isPending || !name.trim() || !html.trim()}
+              sx={{
+                backgroundColor: "#08031B",
+                color: "#FFFFFF",
+              }}
             >
               {isPending ? "Saving..." : "Save"}
             </Button>
-            <Button variant="outlined" onClick={onClose} disabled={isPending}>
+            <Button
+              variant="outlined"
+              onClick={onClose}
+              disabled={isPending}
+              sx={{ color: "#08031B", borderColor: "#08031B" }}
+            >
               Cancel
             </Button>
           </Box>

@@ -55,7 +55,7 @@ function SignUpPage() {
           width: "90vw",
           maxWidth: "700px",
           justifyContent: "center",
-          backgroundColor: "#FFFFFFCC",
+          backgroundColor: "#F8F6F0",
           borderRadius: isMobile ? "30px" : "60px",
           padding: isMobile ? "20px" : "40px",
         }}

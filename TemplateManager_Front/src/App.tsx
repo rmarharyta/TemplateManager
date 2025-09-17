@@ -44,7 +44,7 @@ function App() {
               path="/"
               element={
                 Id ? (
-                  <Navigate to="/dashboard" replace />
+                  <Navigate to="/home" replace />
                 ) : (
                   <Navigate to="/login" replace />
                 )

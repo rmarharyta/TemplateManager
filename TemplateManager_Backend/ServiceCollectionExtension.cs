@@ -7,7 +7,7 @@ using System.Text;
 using AuthenticationService = TemplateManager_Backend.Services.AuthenticationService;
 using IAuthenticationService = TemplateManager_Backend.Services.IAuthenticationService;
 
-namespace TemplateManager_Back
+namespace TemplateManager_Backend
 {
     public static class ServiceCollectionExtension
     {
