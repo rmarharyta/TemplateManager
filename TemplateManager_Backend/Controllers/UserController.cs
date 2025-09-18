@@ -10,18 +10,6 @@ namespace TemplateManager_Backend.Controllers
     [Route("api/[controller]")]
     public class UserController(UserServices _userServices, IEncryptionService encryptionService, Services.IAuthenticationService authenticationService, IJwtService jwtService, IUserClaimsMapper<User> userClaimsMapper) : ControllerBase
     {
-        private ErrorOr<string> GetUserIdFromToken()
-        {
-            var token = HttpContext.Request.Cookies[CookieKeys.Token];
-            if (string.IsNullOrEmpty(token))
-                return ErrorOr.Error.Unauthorized("Token not found");
-
-            var user = userClaimsMapper.FromClaims(token);
-            if (string.IsNullOrEmpty(user.Id))
-                return ErrorOr.Error.Unauthorized("User ID claim not found");
-
-            return user.Id;
-        }
         //Register
         [HttpPost("Register")]
         public IActionResult RegistrationUser([FromBody] RegisterLoginRequest request)
@@ -82,26 +70,6 @@ namespace TemplateManager_Backend.Controllers
                 return BadRequest("Problem: " + ex.Message);
             }
         }
-        [Authorize]
-        [HttpDelete("Delete")]
-        public IActionResult DeleteUser()
-        {
-            var currentUserId = GetUserIdFromToken();
-            if (currentUserId.IsError)
-                return Unauthorized(currentUserId.FirstError.Code);
-
-
-            try
-            {
-                _userServices.DeleteUser(currentUserId.Value);
-                return Ok();
-            }
-            catch (Exception ex)
-            {
-                return BadRequest($"Could not delete {ex.Message}");
-            }
-        }
-
         [Authorize]
         [HttpPost("Logout")]
         public IActionResult Logout()

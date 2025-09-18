@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Marharyta\\Desktop\\TemplateManager\\TemplateManager_Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1BA9BAB0-D24A-47AC-9760-85AE8D435CC3}|TemplateManager_Backend.csproj|c:\\users\\marharyta\\desktop\\templatemanager\\templatemanager_backend\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BA9BAB0-D24A-47AC-9760-85AE8D435CC3}|TemplateManager_Backend.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1BA9BAB0-D24A-47AC-9760-85AE8D435CC3}|TemplateManager_Backend.csproj|c:\\users\\marharyta\\desktop\\templatemanager\\templatemanager_backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BA9BAB0-D24A-47AC-9760-85AE8D435CC3}|TemplateManager_Backend.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BA9BAB0-D24A-47AC-9760-85AE8D435CC3}|TemplateManager_Backend.csproj|c:\\users\\marharyta\\desktop\\templatemanager\\templatemanager_backend\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BA9BAB0-D24A-47AC-9760-85AE8D435CC3}|TemplateManager_Backend.csproj|solutionrelative:services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BA9BAB0-D24A-47AC-9760-85AE8D435CC3}|TemplateManager_Backend.csproj|c:\\users\\marharyta\\desktop\\templatemanager\\templatemanager_backend\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BA9BAB0-D24A-47AC-9760-85AE8D435CC3}|TemplateManager_Backend.csproj|solutionrelative:services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BA9BAB0-D24A-47AC-9760-85AE8D435CC3}|TemplateManager_Backend.csproj|c:\\users\\marharyta\\desktop\\templatemanager\\templatemanager_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BA9BAB0-D24A-47AC-9760-85AE8D435CC3}|TemplateManager_Backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1BA9BAB0-D24A-47AC-9760-85AE8D435CC3}|TemplateManager_Backend.csproj|c:\\users\\marharyta\\desktop\\templatemanager\\templatemanager_backend\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,28 +27,16 @@
       "RelativeMoniker": "D:0:0:{1BA9BAB0-D24A-47AC-9760-85AE8D435CC3}|TemplateManager_Backend.csproj|solutionrelative:services\\templateservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BA9BAB0-D24A-47AC-9760-85AE8D435CC3}|TemplateManager_Backend.csproj|c:\\users\\marharyta\\desktop\\templatemanager\\templatemanager_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BA9BAB0-D24A-47AC-9760-85AE8D435CC3}|TemplateManager_Backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BA9BAB0-D24A-47AC-9760-85AE8D435CC3}|TemplateManager_Backend.csproj|c:\\users\\marharyta\\desktop\\templatemanager\\templatemanager_backend\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BA9BAB0-D24A-47AC-9760-85AE8D435CC3}|TemplateManager_Backend.csproj|solutionrelative:services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BA9BAB0-D24A-47AC-9760-85AE8D435CC3}|TemplateManager_Backend.csproj|c:\\users\\marharyta\\desktop\\templatemanager\\templatemanager_backend\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BA9BAB0-D24A-47AC-9760-85AE8D435CC3}|TemplateManager_Backend.csproj|solutionrelative:services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1BA9BAB0-D24A-47AC-9760-85AE8D435CC3}|TemplateManager_Backend.csproj|c:\\users\\marharyta\\desktop\\templatemanager\\templatemanager_backend\\controllers\\templatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BA9BAB0-D24A-47AC-9760-85AE8D435CC3}|TemplateManager_Backend.csproj|solutionrelative:controllers\\templatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BA9BAB0-D24A-47AC-9760-85AE8D435CC3}|TemplateManager_Backend.csproj|c:\\users\\marharyta\\desktop\\templatemanager\\templatemanager_backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BA9BAB0-D24A-47AC-9760-85AE8D435CC3}|TemplateManager_Backend.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1BA9BAB0-D24A-47AC-9760-85AE8D435CC3}|TemplateManager_Backend.csproj|c:\\users\\marharyta\\desktop\\templatemanager\\templatemanager_backend\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BA9BAB0-D24A-47AC-9760-85AE8D435CC3}|TemplateManager_Backend.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BA9BAB0-D24A-47AC-9760-85AE8D435CC3}|TemplateManager_Backend.csproj|c:\\users\\marharyta\\desktop\\templatemanager\\templatemanager_backend\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BA9BAB0-D24A-47AC-9760-85AE8D435CC3}|TemplateManager_Backend.csproj|solutionrelative:services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1BA9BAB0-D24A-47AC-9760-85AE8D435CC3}|TemplateManager_Backend.csproj|c:\\users\\marharyta\\desktop\\templatemanager\\templatemanager_backend\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BA9BAB0-D24A-47AC-9760-85AE8D435CC3}|TemplateManager_Backend.csproj|solutionrelative:services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Marharyta\\Desktop\\TemplateManager\\TemplateManager_Backend\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
@@ -67,46 +67,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "JwtService.cs",
               "DocumentMoniker": "C:\\Users\\Marharyta\\Desktop\\TemplateManager\\TemplateManager_Backend\\Services\\JwtService.cs",
               "RelativeDocumentMoniker": "Services\\JwtService.cs",
               "ToolTip": "C:\\Users\\Marharyta\\Desktop\\TemplateManager\\TemplateManager_Backend\\Services\\JwtService.cs",
               "RelativeToolTip": "Services\\JwtService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAwwBwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-18T10:14:36.596Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ServiceCollectionExtension.cs",
               "DocumentMoniker": "C:\\Users\\Marharyta\\Desktop\\TemplateManager\\TemplateManager_Backend\\ServiceCollectionExtension.cs",
               "RelativeDocumentMoniker": "ServiceCollectionExtension.cs",
               "ToolTip": "C:\\Users\\Marharyta\\Desktop\\TemplateManager\\TemplateManager_Backend\\ServiceCollectionExtension.cs",
               "RelativeToolTip": "ServiceCollectionExtension.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCsAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAE8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-17T23:42:35.673Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "AuthenticationService.cs",
               "DocumentMoniker": "C:\\Users\\Marharyta\\Desktop\\TemplateManager\\TemplateManager_Backend\\Services\\AuthenticationService.cs",
               "RelativeDocumentMoniker": "Services\\AuthenticationService.cs",
               "ToolTip": "C:\\Users\\Marharyta\\Desktop\\TemplateManager\\TemplateManager_Backend\\Services\\AuthenticationService.cs",
               "RelativeToolTip": "Services\\AuthenticationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-17T23:42:32.347Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "UserServices.cs",
               "DocumentMoniker": "C:\\Users\\Marharyta\\Desktop\\TemplateManager\\TemplateManager_Backend\\Services\\UserServices.cs",
               "RelativeDocumentMoniker": "Services\\UserServices.cs",
@@ -114,18 +114,17 @@
               "RelativeToolTip": "Services\\UserServices.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T22:30:08.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T22:30:08.863Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "TemplateServices.cs",
               "DocumentMoniker": "C:\\Users\\Marharyta\\Desktop\\TemplateManager\\TemplateManager_Backend\\Services\\TemplateServices.cs",
               "RelativeDocumentMoniker": "Services\\TemplateServices.cs",
               "ToolTip": "C:\\Users\\Marharyta\\Desktop\\TemplateManager\\TemplateManager_Backend\\Services\\TemplateServices.cs",
               "RelativeToolTip": "Services\\TemplateServices.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowFYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-17T19:26:03.469Z",
               "EditorCaption": ""
@@ -138,7 +137,7 @@
               "RelativeDocumentMoniker": "Controllers\\TemplateController.cs",
               "ToolTip": "C:\\Users\\Marharyta\\Desktop\\TemplateManager\\TemplateManager_Backend\\Controllers\\TemplateController.cs",
               "RelativeToolTip": "Controllers\\TemplateController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAowG8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-17T19:25:05.122Z",
               "EditorCaption": ""
@@ -151,20 +150,20 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Marharyta\\Desktop\\TemplateManager\\TemplateManager_Backend\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAwDcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-17T16:59:57.374Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Marharyta\\Desktop\\TemplateManager\\TemplateManager_Backend\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\Marharyta\\Desktop\\TemplateManager\\TemplateManager_Backend\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIsAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-16T16:43:47.792Z",
               "EditorCaption": ""
