@@ -1,3 +1,4 @@
+import { azAZ } from "@mui/material/locale";
 import axiosInstance from "./axios";
 
 type LoginResponse = {
@@ -39,9 +40,8 @@ export const logout = async () => {
 export const getUserDetails = async (): Promise<string> => {
     try {
         const response = await axiosInstance.get(`/User/me`);
-        console.log(response);
-        const data = response.data as { Id: string };
-        return data.Id;
+        const data = response.data as { id: string };
+        return data.id;
     } catch (e) {
         console.error(e as Error);
         throw e;

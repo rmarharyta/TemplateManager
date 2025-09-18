@@ -1,12 +1,21 @@
-﻿using Microsoft.EntityFrameworkCore;
-using PuppeteerSharp;
+﻿using PuppeteerSharp;
 using PuppeteerSharp.Media;
 using TemplateManager_Backend.Data;
 using TemplateManager_Backend.Models;
 
 namespace TemplateManager_Backend.Services
 {
-    public class TemplateServices(AppDbContext _context)
+    public interface ITemplateServices
+    {
+        Template CreateTemplate(string userId, TemplateRequest request);
+        List<Template> GetTemplates(string userId);
+        Template? GetTemplateById(string templateId);
+        void UpdateTemplate(string templateId, TemplateRequest request);
+        void DeleteTemplate(string templateId);
+        Task<byte[]> GeneratePdfHtmlAsync(string html, Dictionary<string, string> data);
+
+    }
+    public class TemplateServices(AppDbContext _context): ITemplateServices
     {
         public Template CreateTemplate(string userId, TemplateRequest request)
         {

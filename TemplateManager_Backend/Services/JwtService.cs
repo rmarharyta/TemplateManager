@@ -4,7 +4,6 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using TemplateManager_Backend.Models;
-using TemplateManager_Backend.Services;
 
 namespace TemplateManager_Backend.Services
 {

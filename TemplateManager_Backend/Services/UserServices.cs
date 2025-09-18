@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Identity.Data;
-using Microsoft.EntityFrameworkCore;
-using TemplateManager_Backend.Data;
+﻿using TemplateManager_Backend.Data;
 using TemplateManager_Backend.Models;
 
 namespace TemplateManager_Backend.Services
@@ -9,10 +7,9 @@ namespace TemplateManager_Backend.Services
     public interface IUserService
     {
         string Registration(RegisterLoginRequest request);
-        void DeleteUser(string userId);
         string? LogIn(RegisterLoginRequest request);
     }
-    public class UserServices(AppDbContext _context)
+    public class UserServices(AppDbContext _context):IUserService
     {
         public string Registration(RegisterLoginRequest request)
         {
@@ -40,16 +37,5 @@ namespace TemplateManager_Backend.Services
             return null;
         }
 
-        public void DeleteUser(string userId)
-        {
-            var user = _context.Users.FirstOrDefault(u => u.Id == userId);
-            if (user != null)
-            {
-                _context.Set<User>().Remove(user);
-
-                _context.SaveChanges();
-            }
-
-        }
     }
 }

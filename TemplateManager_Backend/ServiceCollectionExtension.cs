@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using TemplateManager_Backend.Models;
 using TemplateManager_Backend.Services;
@@ -40,8 +39,8 @@ namespace TemplateManager_Backend
             services.AddSingleton<IEncryptionService, EncryptionService>();
             services.AddScoped<IUserClaimsMapper<User>, UserClaimsMapper>();
             services.AddScoped<IJwtService, JwtService>();
-            services.AddScoped<TemplateServices>();
-            services.AddScoped<UserServices>();
+            services.AddScoped<ITemplateServices, TemplateServices>();
+            services.AddScoped<IUserService, UserServices>();
             return services;
         }
 

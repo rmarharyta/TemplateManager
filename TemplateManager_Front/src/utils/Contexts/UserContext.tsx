@@ -1,7 +1,6 @@
 import React, { FC, ReactNode, useEffect } from "react";
 import { getUserDetails, login, logout, register } from "../api/userServices";
 import useAuth from "./useAuth";
-import axiosInstance from "../api/axios";
 import { Navigate } from "react-router-dom";
 
 export type UserContextType = {
@@ -9,7 +8,6 @@ export type UserContextType = {
   signin: (email: string, password: string) => void;
   signup: (email: string, password: string) => void;
   logout: () => void;
-  deleteaccount: () => void;
 };
 
 export const UserContext = React.createContext<UserContextType | undefined>(
@@ -23,7 +21,10 @@ const UserProvider: React.FC<{ children: React.ReactNode }> = ({
 
   useEffect(() => {
     getUserDetails()
-      .then((user) => setId(user))
+      .then((user) => {
+        console.log(user);
+        setId(user);
+      })
       .catch(() => setId(undefined));
   }, []);
 
@@ -49,33 +50,18 @@ const UserProvider: React.FC<{ children: React.ReactNode }> = ({
     }
   };
 
-  const signout = () => {
-    logout()
-      .then(() => {
-        setId(undefined);
-        localStorage.clear();
-      })
-      .catch((error) => {
-        console.error("Помилка виходу:", error);
-        throw error;
-      });
-  };
-
-  const deleteaccount = async () => {
+  const signout = async () => {
     try {
-      await axiosInstance.delete("/Users");
+      await logout();
       setId(undefined);
-      localStorage.clear();
     } catch (e) {
-      console.error("Помилка видалення аккаунта:", e);
+      console.error("Помилка виходу:", e);
       throw e;
     }
   };
 
   return (
-    <UserContext.Provider
-      value={{ deleteaccount, Id, signin, signup, logout: signout }}
-    >
+    <UserContext.Provider value={{ Id, signin, signup, logout: signout }}>
       {children}
     </UserContext.Provider>
   );

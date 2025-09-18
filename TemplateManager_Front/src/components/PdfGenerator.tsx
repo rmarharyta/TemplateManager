@@ -76,7 +76,7 @@ const PdfGenerator: React.FC<PdfGeneratorProps> = ({ template, onClose }) => {
           color: "#FFFFFF",
         }}
       >
-        Generate PDF
+        {isSubmitting ? "Generating..." : "Generate PDF"}
       </Button>
       <Button
         onClick={onClose}

@@ -10,10 +10,6 @@ import WelcomeText from "../components/WelcomeText";
 import CustomButton from "../components/СustomButton";
 
 function LoginPage() {
-  useEffect(() => {
-    localStorage.removeItem("token");
-  }, []);
-
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [isSubmitted, setIsSubmitted] = useState(false);

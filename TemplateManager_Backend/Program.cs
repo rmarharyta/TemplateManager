@@ -1,10 +1,6 @@
 
-using System;
 using Microsoft.EntityFrameworkCore;
-using TemplateManager_Back;
 using TemplateManager_Backend.Data;
-using TemplateManager_Backend.Models;
-using TemplateManager_Backend.Services;
 
 namespace TemplateManager_Backend
 {
@@ -15,7 +11,6 @@ namespace TemplateManager_Backend
             var builder = WebApplication.CreateBuilder(args);
 
             builder.Services.AddCrossOrigins();
-            builder.Services.AddMemoryCache();
             builder.Services.RegisterSecretKeys(builder.Configuration);
             builder.Services.RegisterServices();
             builder.Services.AddJwtAuthentication(builder.Configuration);
